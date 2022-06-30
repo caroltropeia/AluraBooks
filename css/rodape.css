@@ -1,0 +1,159 @@
+
+.radape__categorias{
+    display: none;
+}
+
+
+.rodape{
+    padding: 1em;
+    font-size: 16px;
+    font-weight: 400;
+    border-top: 1px solid  #858585;
+}
+
+@media screen and (min-width: 1024px){
+    .rodape{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 2em;
+    }
+    .radape__categorias{
+        display: block;
+    }
+    
+    
+    .rodape__titulo{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .rodape__educacao__link{
+        padding-left: 2.5em;
+    }
+    .rodape__educacao-titulo{
+        text-transform: uppercase;
+        color: #858585;;
+    }
+    .rodape__educacao-item-caelum{
+        margin-top: 1em;
+        padding: .7em;
+        background-image: url(../img/Caelum.png);
+        background-repeat: no-repeat;
+    }
+    
+    
+    .rodape__educacao-item-casa{
+        margin-top: 1em;
+        padding: .7em;
+        background-image: url(../img/CasaDoCodigo.png);
+        background-repeat: no-repeat;
+    }
+    
+    .rodape__educacao-item-alura{
+        margin-top: 1em;
+        padding: .7em;
+        background-image: url(../img/Alura.png);
+        background-repeat: no-repeat;
+    }
+    
+    .rodape__educacao-item-aluraempresas{
+        margin-top: 1em;
+        padding: .7em;
+        background-image: url(../img/AluraEmpresas.png);
+        background-repeat: no-repeat;
+    }
+    
+    .rodape__educacao-item-aluralatam{
+        margin-top: 1em;
+        padding: .7em;
+        background-image: url(../img/AluraLatam.png);
+        background-repeat: no-repeat;
+    }
+    
+    .rodape__educacao-item-alurastart{
+        margin-top: 1em;
+        padding: .7em;
+        background-image: url(../img/AluraStart.png);
+        background-repeat: no-repeat;
+    }
+    
+    .rodape__educacao-item-musicdot{
+        margin-top: 1em;
+        padding: .7em;
+        background-image: url(../img/MusicDot.png);
+        background-repeat: no-repeat;
+    }
+    
+    .rodape__educacao-item-aluralingua{
+        margin-top: 1em;
+        padding: .7em;
+        background-image: url(../img/AluraLingua.png);
+        background-repeat: no-repeat;
+    }
+    .rodape__educacao-item-pm3{
+        margin-top: 1em;
+        padding: .7em;
+        background-image: url(../img/PM3.png);
+        background-repeat: no-repeat;
+    }
+    
+    .rodape__educacao-item-hiptech{
+        margin-top: 1em;
+        padding: .7em;
+        background-image: url(../img/HipstersTech.png);
+        background-repeat: no-repeat;
+    }
+    .rodape__educacao-item-dev{
+        margin-top: 1em;
+        padding: .7em;
+        background-image: url(../img/Scuba.png);
+        background-repeat: no-repeat;
+    }
+    
+    .rodape__educacao-item-ltech{
+        margin-top: 1em;
+        padding: .7em;
+        background-image: url(../img/Layers.png);
+        background-repeat: no-repeat;
+    }
+    
+    .rodape__educacao-item-boss{
+        margin-top: 1em;
+        padding: .7em;
+        background-image: url(../img/LikeABoss.png);
+        background-repeat: no-repeat;
+    }
+    
+    .rodape__educacao-item-carreira{
+        margin-top: 1em;
+        padding: .7em;
+        background-image: url(../img/CarreiraSemFronteira.png);
+        background-repeat: no-repeat;
+    }
+    
+    .rodape__educacao-item-jobs{
+        margin-top: 1em;
+        padding: .7em;
+        background-image: url(../img/HipstersJobs.png);
+        background-repeat: no-repeat;
+    }
+    
+    .rodape__educacao-item-guj{
+        margin-top: 1em;
+        padding: .7em;
+        background-image: url(../img/GUJ.png);
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .radape__categorias{
+        border-left: 1px solid grey;
+        padding-left: 1.5em;
+    }
+
+    .rodape__titulo{
+        font-weight: 500;
+    }
+}

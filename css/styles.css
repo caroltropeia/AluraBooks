@@ -1,0 +1,25 @@
+
+
+:root{
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #ff8520;
+    --blue: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #002F52;
+    --fonte-logo: font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family:  var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer{
+    padding: 1em;
+    font-size: 16px;
+    font-weight: 400;
+    border-top: 1px solid  #858585;
+}
